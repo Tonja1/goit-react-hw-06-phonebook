@@ -20,7 +20,7 @@ const persistConfig = {
     blacklist: ['filter'],
 };
 
-const rootReduser = combineReducers({
+const rootReducer = combineReducers({
   contacts: contactReducer,
   filter: filterReducer,
 });
